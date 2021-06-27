@@ -140,7 +140,7 @@ class GUI(Tk):
             new_file = os.path.join(destination.strip(),self.temporaryFileNameGenerator()+".txt")
 
             file = open(new_file, "w") 
-            file.write(pytesseract.image_to_string(r'C:\workspace1\image2text\sample_image\sample_image.jpg')) 
+            file.write(pytesseract.image_to_string(image_path)) 
             file.close()         
         except Exception as e:
             messagebox.showwarning("Warning", str(e) + "\nFailed to write text file")
