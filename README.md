@@ -10,7 +10,7 @@ I created a GUI of a image text transcriber.
 
 Please message me with any feedback, I am happy talk :)
 
-<img src="https://user-images.githubusercontent.com/46912607/120653042-4c1f9a00-c4bb-11eb-9e2e-79c13aebbc20.PNG" width="300">
+<img src="https://user-images.githubusercontent.com/46912607/123530272-538d3880-d733-11eb-8995-ca53663aa80d.png" width="300">
 
 ### 📑 How to Install and Run
 

@@ -111,9 +111,9 @@ class GUI(Tk):
     def downloadStream(self):
         
         try: 
-            destination = os.path.normpath(self.downloadPath.get())
-            if os.path.isdir(destination)!=True:
+            if not self.downloadPath.get():
                 raise ValueError()
+            destination = os.path.normpath(self.downloadPath.get())
             self.downloadText.delete(1.0, END)
             self.downloadText.insert("end","")
         except ValueError as e:
