@@ -1,0 +1,22 @@
+WELCOME!!
+
+*****
+Do not delete or make edits to instruction.txt or config.json.
+Doing so may damage the program.
+*****
+This is image2text.py ver 1.00
+
+After you first download the zip folder, unzip the folder in your location of choice.
+go to https://github.com/UB-Mannheim/tesseract/wiki and download and install the Tesseract OCR executable.
+make sure to download the file at the following location: C:\Program Files\Tesseract-OCR\tesseract.
+
+Then create a quick a shortcut of the image2text.exe file for access.
+Make sure to choose a file download destination before you start transcribing files.
+
+This is an open source image transcriber made by me, Jinlee487.
+I will not assume any responsibility of others using this resource in any fashion.
+
+Enjoy!!
+
+
+
