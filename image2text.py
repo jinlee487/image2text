@@ -132,7 +132,6 @@ class GUI(Tk):
             return
         try:
             pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
-            # print(pytesseract.image_to_string(r'C:\workspace1\image2text\sample_image\sample_image.jpg'))
         except Exception as e:
             messagebox.showwarning("Warning", str(e) + "\nFailed to locate pytesseract ")
             return
